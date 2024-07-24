@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Project-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #28293E;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.Project-heading{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Project-title{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.Project-title p{
+    color: #EF6D58;
+    font-family: "Epilogue", sans-serif;
+    margin: 1%;
+}
+.Project-title h1{
+    font-family: "Epilogue", sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 46px;
+}
+.Project-button{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Project-button a{
+    color: white;
+    text-decoration: none;
+}
+.Project-button button{
+    width: 150px;
+    height: 38px;
+    background-color: transparent;
+    border-radius: 5px;
+    border:1px solid #FFFFFF4B;
+    color: #FFF;
+    text-align: center;
+    font-family: "Epilogue", sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.Project-content{
+    width: 95%;
+    height: 70%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Card{
+    width: 100%;
+    height: 100%;
+}
+.ProjectCard-container{
+    width: 80%;
+    height: 60vh;   
+    border: 1px solid white;
+    box-shadow: 2px 2px 5px  rgb(255, 255, 255,.5);
+}
+.ProjectCard-container img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.ProjectCard-title{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.ProjectCard-title h1{
+    color:#FFFFFF;
+    font-size: 20px;
+    font-family: "Epilogue", sans-serif;
+    text-align: center;
+}
+.ProjectCard-title button{
+    width: 150px;
+    height: 30px;
+    margin: 2%;
+    background-color: #ef6d58;
+    opacity: 0.8;
+    transition: all 0.5s;
+    color: white;
+    font-weight:500;
+    cursor: pointer;
+    font-family: "Epilogue", sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+.ProjectCard-title button:hover{
+    background-color: #ef6d58;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.ProjectCard-container-description{
+    width: 80%;
+    height: 60vh;   
+    border: 1px solid white;
+    box-shadow: 2px 2px 5px  rgb(255, 255, 255,.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ProjectCard-container-description p{
+    font-size: 15px;
+    color: white;
+    width: 90%;
+    text-align: center;
+}
+.ProjectCard-container-description button{
+    width: 150px;
+    height: 30px;
+    margin: 6%;
+    background-color: #ef6d58;
+    opacity: 0.8;
+    transition: all 0.5s;
+    color: white;
+    font-weight:500;
+    cursor: pointer;
+    font-family: "Epilogue", sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+.ProjectCard-container-description button:hover{
+    background-color: #ef6d58;
+    opacity: 1;
+    transition: all 0.5s;
+}

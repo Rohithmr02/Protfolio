@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.service-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #FDF0E9;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.service-heading{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.service-heading p{
+    margin: 2%;
+    font-family: "Epilogue", sans-serif;
+    color: #EF6D58;
+    font-size: 16px;
+}
+.service-heading h1{
+    margin: 2%;
+    text-align:center ;
+    color: #391400;
+    font-family: "Epilogue", sans-serif;
+    font-size: 56px;
+}
+.service-content{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1%;
+}
+.Design{
+    width: 50%;
+    height: 100%;
+    border: 1px solid #F3D1BF;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Development{
+    width: 50%;
+    height: 100%;
+    border:1px solid#F3D1BF;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.design-heading{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.design-content{
+    width: 100%;
+    height:60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.design-content p{
+    font-family: "Epilogue", sans-serif;
+    color: #391400A3;
+    margin: 6%;
+}
+.development-heading{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.development-content{
+    width: 100%;
+    height:60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.development-content p{
+    font-family: "Epilogue", sans-serif;
+    color: #391400A3;
+    margin: 6%;
+}
+.design-logo{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.development-logo{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.development-icon{
+    position: absolute;
+    top: 50;
+}
+.design-icon{
+    position: absolute;
+    top: 50;
+}
+.service-name h2{
+    color: #391400;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.service-footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.service-footer p{
+    color: #391400A3;
+    font-family: "Epilogue", sans-serif;
+    margin: 1%;
+}
+.service-footer h5{
+    color: #391400;
+    font-family: "Epilogue", sans-serif;
+}

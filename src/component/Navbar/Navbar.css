@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.logo{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-image{
+    position: relative;
+}
+.logo-image1{
+    position:absolute;
+    top: 30%;
+    left: 30%;
+}
+.Logo-name h1{
+    color: #EF6D58;
+     font-family: "Epilogue", sans-serif;
+}
+.navbar-container{
+    width: 100%;
+    height: 15vh;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar-container nav ul{
+    width: 90vh;
+    height: 10vh;
+    display: flex;
+}
+li{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-family: "Epilogue", sans-serif;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Epilogue", sans-serif;
+}
+.contact{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact button{
+    border:1px solid #ffffff4b;
+    width: 120px;
+    height: 38px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #FFF;
+    text-align: center;
+     font-family: "Epilogue", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.contact button:hover{
+    background-color:rgb(255, 255, 255,.5) ;
+    transition: all 0.5s;
+}
+.contact button a{
+    color: white;
+    text-decoration: none;
+    font-family: "Epilogue", sans-serif;
+}
+li a:hover{
+    color:gold;
+    transition: all 0.5s;
+}
+

@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Contact-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #28293E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Contact-form{
+    width: 35%;
+    height: 70%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+
+}
+.Contact-form form{
+    width: 80%;
+    height: 80%;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.Contact-form form input{
+    width: 100%;
+    height: 15%;
+    margin: 3%;
+    border: 1px solid #F3D1BF;
+    padding: 10px;
+    border-radius: 2px;
+    outline: none;
+    font-size: 13px;
+    font-family: "Epilogue", sans-serif;
+}
+#submitbutton{
+    background-color: #EF6D58;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: "Epilogue", sans-serif;
+}
+.Contact-form form h1{
+    font-family: "Epilogue", sans-serif;
+    margin-left: 3%;
+    font-size: 25px;
+}
+.Contact-info{
+    width: 40%;
+    height: 70%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.Contact-content{
+    width: 90%;
+    height: 50%;
+    display:flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+}
+.Contact-content p{
+    color: #EF6D58;
+    text-transform: uppercase;
+     font-family: "Epilogue", sans-serif;
+    margin: 2%;    
+}
+.Contact-content h1{
+     font-family: "Epilogue", sans-serif;
+    font-size:46px;
+    margin-bottom: 2%;
+    color: white;
+}
+.Contact-content h4{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFFA3;
+    font-family: "Epilogue", sans-serif;
+    margin: 2%; 
+}
+.Contact-details{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.Contact-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
+
+.Contact-circle{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+.contact-logo{
+    position: absolute;
+    left: 10%;
+    top: 28%;
+}
+.Contact-write{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Contact-write p{
+    color: white;
+    font-family: "Epilogue", sans-serif;
+    font-size: 15px;
+}
+.contact-footer{
+    width: 100%;
+    height: 45vh;
+    background-color: #FDF0E9;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.footer-content{
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+}
+.footer-heading{
+    width:100%;
+    height: 100%;
+    text-align: center;
+}
+.footer-heading h1{
+    color: #391400;
+    font-family: "Epilogue", sans-serif;
+    font-size: 20px;
+}
+.footer-menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.footer-menu-heading{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    margin: 2%;
+}
+.footer-menu-heading h3{
+    text-transform: uppercase;
+    color: #EF6D58;
+    font-family: "Epilogue", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer-menu-content{
+    width: 100%;
+    height:90%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.footer-menu-content ul{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+}
+.footer-menu-content li {
+    margin: 3%;
+}
+.footer-menu-content li a{
+    color: #391400;
+}
+.footer-menu-content li a:hover{
+    color: #391400;
+}
+.footer-service{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+.footer-service-heading{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    margin: 2%;
+}
+.footer-service-heading h3{
+    text-transform: uppercase;
+    color: #EF6D58;
+    font-family: "Epilogue", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.footer-service-content{
+    width: 100%;
+    height:90%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    
+}
+.footer-service-content ul{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+}
+.footer-service-content li {
+    margin:3%;
+}
+.footer-service-content li a{
+    color: #391400;
+}
+.footer-service-content li a:hover{
+    color: #391400;
+}
+
+.footer-copyright{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-copyright p{
+    color: #391400;
+    font-family: "Epilogue", sans-serif;
+}
+
+.line{
+    width: 90%;
+    height: 0.2%;
+    background-color: red;
+}
+.footer-logo{
+    width: 100%;
+    height:90%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
